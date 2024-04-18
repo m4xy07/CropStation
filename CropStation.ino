@@ -150,7 +150,7 @@ int soilMoistureValue()
   soilMoisture = analogRead(SOIL_MOISTURE_PIN);
   Serial.print("Soil Moisture: ");
   Serial.println(soilMoisture);
-  moisturepercentage = ( 100 - ( (soilMoisture/1023.00) * 100 ) )+65;
+  moisturepercentage = ( 100 - ( (soilMoisture/1023.00) * 100 ) )+15;
   Serial.print("Moisture Percentage = ");
   Serial.println(moisturepercentage);
 }
@@ -226,6 +226,11 @@ void displaySensorData() {
   display.print("Pressure: ");
   display.print(presi);
   display.println("hPa");
+
+  //Display Soil Moisture
+  display.print("Soil Moisture: ");
+  display.print(moisturepercentage);
+  display.println("%");
 
   display.display();
 }
