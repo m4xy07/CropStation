@@ -476,6 +476,7 @@ for (JsonVariant month : months_supported) {
     Serial.println("Best crop for current conditions: " + best_crop);
   } else {
     Serial.println("No suitable crop found for current conditions.");
+    best_crop = "None";
   }
  
 
@@ -495,6 +496,8 @@ jsonData["aqi"] = airQualityIndex;
 jsonData["hi"] = hic;
 jsonData["alt"] = alt;
 jsonData["pres"] = pres;
+jsonData["moisture"] = moisturepercentage;
+jsonData["crop"] = best_crop;
 jsonData["raining"] = checkForRain() ? "Yes" : "No";
 jsonData["wifi_strength"] = rssi;
 
