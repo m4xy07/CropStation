@@ -407,11 +407,11 @@ void loop() {
 WiFiClient client;
 
 int arrmonth = Month2int(currentTime.getMonth());
-char month[10]; // Allocate enough space for the month name
+char month[10];
 char* monthNames[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 char* monthName = monthNames[arrmonth-1]; //-1 cuz array starts from 0
 
-Serial.println(monthName);
+//Serial.println(monthName); //for debugging
 
 // Parse JSON database
 DynamicJsonDocument doc(6144);
@@ -422,10 +422,10 @@ if (error) {
   return;
 }
 
-// Clear the matchingCropsString before each iteration
+//Clear the matchingCropsString before each iteration
 matchingCropsString = "";
 
-// Iterate through JSON database
+//Iterate through JSON database
 JsonArray cropsArray = doc["crops"];
 for (JsonObject crop : cropsArray) {
   min_temp = crop["temperature"]["min"];
@@ -474,7 +474,7 @@ if (!matchingCropsString.isEmpty()) {
 if (client.connect(host, port)) {
     Serial.println("Connected to server");
 
-    //Create a JSON object
+//Create a JSON object
 StaticJsonDocument<200> jsonDoc;
 //Create a JSON object in the buffer
 JsonObject jsonData = jsonDoc.to<JsonObject>();
@@ -523,8 +523,5 @@ Serial.println(measureJson(jsonData));
   } else {
     Serial.println("Connection to server failed");
   }
-
   delay(delayTime);
 }
-
-
