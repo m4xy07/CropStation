@@ -375,7 +375,7 @@ const char json[] PROGMEM = R"JSON(
         "max": 35
       },
       "humidity": {
-        "min": 60,
+        "min": 50,
         "max": 85
       },
       "soil_moisture": {
@@ -397,7 +397,7 @@ const char json[] PROGMEM = R"JSON(
         "max": 35
       },
       "humidity": {
-        "min": 60,
+        "min": 50,
         "max": 85
       },
       "soil_moisture": {
@@ -419,7 +419,7 @@ const char json[] PROGMEM = R"JSON(
         "max": 43
       },
       "humidity": {
-        "min": 60,
+        "min": 50,
         "max": 85
       },
       "soil_moisture": {
@@ -464,7 +464,7 @@ const char json[] PROGMEM = R"JSON(
         "max": 29
       },
       "humidity": {
-        "min": 60,
+        "min": 50,
         "max": 86
       },
       "soil_moisture": {
@@ -472,50 +472,6 @@ const char json[] PROGMEM = R"JSON(
         "max": 86
       },
       "months_supported": [
-        "May",
-        "June",
-        "July",
-        "August"
-      ]
-    },
-    {
-      "name": "Hooga Booga Yaha Kuch Nahi Ooga",
-      "temperature": {
-        "min": 15,
-        "max": 40
-      },
-      "humidity": {
-        "min": 30,
-        "max": 86
-      },
-      "soil_moisture": {
-        "min": 1,
-        "max": 6
-      },
-      "months_supported": [
-        "April",
-        "May",
-        "June",
-        "July",
-        "August"
-      ]
-    },
-    {
-      "name": "Test Crop #2",
-      "temperature": {
-        "min": 15,
-        "max": 40
-      },
-      "humidity": {
-        "min": 50,
-        "max": 86
-      },
-      "soil_moisture": {
-        "min": 6,
-        "max": 80
-      },
-      "months_supported": [
-        "April",
         "May",
         "June",
         "July",
