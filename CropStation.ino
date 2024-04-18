@@ -42,7 +42,7 @@ BME280SpiSw bme(settings);
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-unsigned long delayTime = 30000;
+unsigned long delayTime = 90000;
 auto timeZoneOffsetHours = 5.5;
 
 int buzzerpin = 8;
