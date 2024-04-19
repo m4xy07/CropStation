@@ -116,7 +116,7 @@ const char json[] PROGMEM = R"JSON(
         "max": 30
       },
       "humidity": {
-        "min": 60,
+        "min": 40,
         "max": 80
       },
       "soil_moisture": {
@@ -137,7 +137,7 @@ const char json[] PROGMEM = R"JSON(
         "max": 30
       },
       "humidity": {
-        "min": 60,
+        "min": 40,
         "max": 80
       },
       "soil_moisture": {
@@ -218,17 +218,17 @@ const char json[] PROGMEM = R"JSON(
       ]
     },
     {
-      "name": "Peas",
+      "name": "Arhar",
       "temperature": {
         "min": 15,
-        "max": 25
+        "max": 35
       },
       "humidity": {
-        "min": 60,
+        "min": 40,
         "max": 80
       },
       "soil_moisture": {
-        "min": 60,
+        "min": 50,
         "max": 80
       },
       "months_supported": [
@@ -284,7 +284,7 @@ const char json[] PROGMEM = R"JSON(
       "name": "Sugarcane",
       "temperature": {
         "min": 20,
-        "max": 28
+        "max": 32
       },
       "humidity": {
         "min": 65,
@@ -306,14 +306,14 @@ const char json[] PROGMEM = R"JSON(
       "name": "Banana",
       "temperature": {
         "min": 15,
-        "max": 30
+        "max": 35
       },
       "humidity": {
-        "min": 60,
+        "min": 40,
         "max": 85
       },
       "soil_moisture": {
-        "min": 60,
+        "min": 55,
         "max": 80
       },
       "months_supported": [
