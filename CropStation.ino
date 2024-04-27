@@ -71,8 +71,8 @@ String best_crop;
 float soil_moisture, min_temp, max_temp, min_humidity, max_humidity, min_soil_moisture, max_soil_moisture;
 String matchingCropsString;
 
-const char* ssid = SECRET_SSID3;
-const char* pass = SECRET_PASS3;
+const char* ssid = SECRET_SSID;
+const char* pass = SECRET_PASS;
 const char* secret = SHARED_SECRET;
 const char* host = IPadd; 
 const int port = 3000;
