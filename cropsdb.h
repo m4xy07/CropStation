@@ -273,11 +273,39 @@ const char json[] PROGMEM = R"JSON(
         "min": 60,
         "max": 80
       },
+      "retail_price": {
+        "January": 4000,
+        "February": 4000,
+        "March": 4000,
+        "April": 3000,
+        "May": 3167,
+        "June": 3000,
+        "July": 3000,
+        "August": 3000,
+        "September": 3000,
+        "October": 3000,
+        "November": 3000,
+        "December": 3000
+      },
+      "wholesale_price": {
+        "January": 1675,
+        "February": 1198,
+        "March": 994,
+        "April": 1225,
+        "May": 1533,
+        "June": 1542,
+        "July": 1579,
+        "August": 1600,
+        "September": 1459,
+        "October": 1558,
+        "November": 1524,
+        "December": 1497
+      },
       "months_supported": [
         "November",
         "December",
         "January",
-        "February"
+        "February",
       ]
     },
     {
