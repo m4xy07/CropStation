@@ -48,7 +48,7 @@ This continuous cycle of data acquisition, analysis, display, storage, and trans
 
 
 ## Database Template
-`
+```
 {
       "name": "Potato",
       "temperature": {
@@ -97,4 +97,5 @@ This continuous cycle of data acquisition, analysis, display, storage, and trans
         "January",
         "February",
       ]
-    }`
+    }
+```
