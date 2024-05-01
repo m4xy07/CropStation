@@ -1,21 +1,23 @@
 ## Aim and Objective of the Arduino Based Crop and Weather Suitability Station
 
-This Arduino code aims to create a comprehensive weather station that monitors various environmental parameters and analyzes their suitability for crop growth. 
+This project aims to create a comprehensive weather station that monitors various environmental parameters and analyzes their suitability for crop growth. 
 Here's a breakdown of the objectives:
 
 * **Environmental Data Collection:** 
     * Measures temperature, humidity, atmospheric pressure, altitude, air quality, soil moisture, and rainfall.
-    * Employs sensors like DHT22, BME280, rain sensor, and an analog sensor for air quality.
+    * Employs sensors like DHT22, BME280, rain sensor, soil moisture sensor and a MQ-135 for air quality.
 * **Data Processing and Analysis:**
     * Calculates heat index based on temperature and humidity.
     * Accesses a JSON database containing crop-specific requirements for temperature, humidity, and soil moisture.
     * Analyzes the collected data against the crop database to determine suitable crops for the current conditions.
 * **Data Display and Storage:**
     * Presents the collected sensor data on an OLED display.
-    * Logs the data to an SD card for later analysis.
+    * Logs the data to an SD card for later analysis which also serves as a data backup in case WiFi is not available or we lose connection to the server.
 * **Web Connectivity and Data Transmission:**
     * Connects to a Wi-Fi network.
     * Transmits the collected weather data along with crop suitability information to a web server at regular intervals.
+
+The Data transmision and processing (storage of data recieved in a MongoDB on a server) is done via the [Arduino Server Manager](https://github.com/m4xy07/arduino-server-manager)
 
 ## Working of the Arduino Code
 
