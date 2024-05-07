@@ -67,10 +67,10 @@ const char json[] PROGMEM = R"JSON(
       ]
     },
     {
-      "name": "Sugar-Cane",
+      "name": "Guava",
       "temperature": {
         "min": 12,
-        "max": 34
+        "max": 36
       },
       "humidity": {
         "min": 50,
@@ -260,55 +260,6 @@ const char json[] PROGMEM = R"JSON(
       ]
     },
     {
-      "name": "Potato",
-      "temperature": {
-        "min": 15,
-        "max": 25
-      },
-      "humidity": {
-        "min": 60,
-        "max": 80
-      },
-      "soil_moisture": {
-        "min": 60,
-        "max": 80
-      },
-      "retail_price": {
-        "January": 4000,
-        "February": 4000,
-        "March": 4000,
-        "April": 3000,
-        "May": 3167,
-        "June": 3000,
-        "July": 3000,
-        "August": 3000,
-        "September": 3000,
-        "October": 3000,
-        "November": 3000,
-        "December": 3000
-      },
-      "wholesale_price": {
-        "January": 1675,
-        "February": 1198,
-        "March": 994,
-        "April": 1225,
-        "May": 1533,
-        "June": 1542,
-        "July": 1579,
-        "August": 1600,
-        "September": 1459,
-        "October": 1558,
-        "November": 1524,
-        "December": 1497
-      },
-      "months_supported": [
-        "November",
-        "December",
-        "January",
-        "February",
-      ]
-    },
-    {
       "name": "Sugarcane",
       "temperature": {
         "min": 20,
@@ -320,7 +271,7 @@ const char json[] PROGMEM = R"JSON(
       },
       "soil_moisture": {
         "min": 80,
-        "max": 88
+        "max": 89
       },
       "months_supported": [
         "November",
@@ -335,10 +286,10 @@ const char json[] PROGMEM = R"JSON(
       "name": "Banana",
       "temperature": {
         "min": 15,
-        "max": 35
+        "max": 38
       },
       "humidity": {
-        "min": 35,
+        "min": 30,
         "max": 85
       },
       "soil_moisture": {
@@ -360,7 +311,7 @@ const char json[] PROGMEM = R"JSON(
         "max": 35
       },
       "humidity": {
-        "min": 43,
+        "min": 30,
         "max": 85
       },
       "soil_moisture": {
@@ -379,15 +330,15 @@ const char json[] PROGMEM = R"JSON(
       "name": "Mango",
       "temperature": {
         "min": 15,
-        "max": 35
+        "max": 38
       },
       "humidity": {
-        "min": 40,
-        "max": 85
+        "min": 30,
+        "max": 88
       },
       "soil_moisture": {
         "min": 60,
-        "max": 90
+        "max": 96
       },
       "months_supported": [
         "March",
@@ -420,13 +371,13 @@ const char json[] PROGMEM = R"JSON(
       ]
     },
     {
-      "name": "Guava",
+      "name": "Pear",
       "temperature": {
         "min": 15,
         "max": 35
       },
       "humidity": {
-        "min": 50,
+        "min": 38,
         "max": 85
       },
       "soil_moisture": {
