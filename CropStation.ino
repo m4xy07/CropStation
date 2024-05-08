@@ -27,6 +27,7 @@
 
 #define DHTTYPE DHT22
 #define SOIL_MOISTURE_PIN A1
+
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 #define OLED_RESET     -1 
@@ -253,13 +254,13 @@ while(!bme.begin())
 switch(bme.chipModel())
   {
      case BME280::ChipModel_BME280:
-       Serial.println("Found BME280 sensor! Success.");
+       Serial.println("INFO: BME Loaded");
        break;
      case BME280::ChipModel_BMP280:
-       Serial.println("Found BMP280 sensor! No Humidity available.");
+       Serial.println("INFO: BME Loaded [Humidity Unavailable]");
        break;
      default:
-       Serial.println("Found UNKNOWN sensor! Error!");
+       Serial.println("ERROR: Unknown Sensor! BME ERROR");
   }
 
   //pinMode(buzzerpin, OUTPUT);
