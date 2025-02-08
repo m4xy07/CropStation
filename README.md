@@ -1,6 +1,6 @@
 # Warning READ BELOW
 
-## This project is currently being reworked and built entirely from scratch to utilize Raspberry Pi 5 and advanced AI Models. Check out the development **[here]**(https://github.com/m4xy07/CropSense-Pi)
+## This project is currently being reworked and built entirely from scratch to utilize Raspberry Pi 5 and advanced AI Models. Check out the development [**here**](https://github.com/m4xy07/CropSense-Pi)
 
 
 
