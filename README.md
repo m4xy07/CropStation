@@ -1,3 +1,7 @@
+## This project is currently being reworked and built entirely from scratch to utilize Raspb erry Pi and advanced AI Models. Check it out the development [here](https://github.com/m4xy07/CropSense-Pi
+
+
+
 ## Aim and Objective of the Arduino Based Crop and Weather Suitability Station
 
 This project aims to create a comprehensive weather station that monitors various environmental parameters and analyzes their suitability for crop growth. 
