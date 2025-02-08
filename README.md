@@ -1,3 +1,5 @@
+# Warning READ BELOW
+
 ## This project is currently being reworked and built entirely from scratch to utilize Raspb erry Pi and advanced AI Models. Check it out the development [here](https://github.com/m4xy07/CropSense-Pi)
 
 
